@@ -19,7 +19,7 @@ Consumers with externally managed keys can also optionally use manual commit:
 
 - [Consuming messages with externally managed keys using manual commit](#consuming-messages-with-externally-managed-keys-using-manual-commit)
 
-Message senders and receivers are uniquely identified using **destinations URIs**. The following REST API can be used to obtain the list of all destinations available within the environment:
+Message senders and receivers are uniquely identified using **destinations URIs**. These can be accessed from the App2app service dasboard. They can also be retrieved programmatically using the following API:
 
 - [Address book](#address-book)
 
