@@ -1,0 +1,1 @@
+openssl req -x509 -newkey rsa:2048 -sha256 -days 365 -nodes -keyout key.pem -out cert.pem -subj /CN="$1"

@@ -1,0 +1,31 @@
+{
+  "name": "app2app-snippets",
+  "version": "1.0.0",
+  "description": "Sample code snippets for app2app",
+  "main": "index.js",
+  "scripts": {
+    "consumer-auto-commit": "node ./lib/kaleido-managed/consumer-auto-commit.js",
+    "consumer-manual-commit": "node ./lib/kaleido-managed/consumer-manual-commit.js",
+    "producer": "node ./lib/kaleido-managed/producer.js",
+    "consumer-externally-managed-key-auto-commit": "node ./lib/externally-managed/consumer-auto-commit.js",
+    "consumer-externally-managed-key-manual-commit": "node ./lib/externally-managed/consumer-manual-commit.js",
+    "producer-externally-managed-key": "node ./lib/externally-managed/producer.js",
+    "addressbook": "node ./lib/addressbook.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaleido-io/app2app-snippets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaleido-io/app2app-snippets/issues"
+  },
+  "homepage": "https://github.com/kaleido-io/app2app-snippets#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "node-forge": "^0.9.1",
+    "socket.io-client": "^2.3.0"
+  }
+}
