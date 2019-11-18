@@ -42,6 +42,8 @@ For more information about the Kaleido App2app Messaging service, visit the [doc
 
 ![API endpoint](./resources/readme_2.png)
 
+>  In a practical application destinations would correspond to App2app service instances belonging to different organizations. In this example we are using a single service instance and a single destination just for illustration/test purposes.
+
 > Note: the remaining steps are only required when using externally managed private keys
 
 8. Click on **Add Destination** one more time. Then click on **Next** and type `my-externally-managed-destination` on the destination name input field.
@@ -58,8 +60,6 @@ cd lib/externally-managed/cert
 15. Copy the externally managed destination URI into [./lib/externally-managed-cert-cert.pem](./lib/externally-managed-cert-cert.pem) as follows:
 
 ![External destination](./resources/readme_3.png)
-
->  In a practical application destinations would correspond to App2app service instances belonging to different organizations. In this example we are using a single service instance and a single destination just for illustration/test purposes.
 
 # Snippets
 
