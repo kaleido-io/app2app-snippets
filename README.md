@@ -48,6 +48,10 @@ For more information about the Kaleido App2app Messaging service, visit the [doc
 
 8. Click on **Add Destination** one more time. Then click on **Next** and type `my-externally-managed-destination` on the destination name input field.
 9. Check **I would like to encrypt and sign messages using my own private key, not managed by Kaleido** option and click on **Finish**.
+10. The following screen will appear, note the **subject** highlighted in red:
+
+![API endpoint](./resources/readme_3.png)
+
 10. To generate a private key and a self-signed X.509 certificate run the following command passing the **subject** value shown on screen:
 ```sh
 cd lib/externally-managed/cert
@@ -55,11 +59,11 @@ cd lib/externally-managed/cert
 ```
 11. Copy the **key** value shown on screen. Use the breadcrum to return to the environment screen and click on **On-Chain Registry** under **services**.
 12. Select your membership on the left hand side tree and click on **Add Profile Key**. Paste the key copied in the previous step into the **Key Name** input field.
-13. Copy the content of [./lib/externally-managed-cert-cert.pem](./lib/externally-managed-cert-cert.pem) and paste it into the **Value** input field. Finally, click on **Add**.
+13. Copy the content of `lib/externally-managed-cert-cert.pem` and paste it into the **Value** input field. Finally, click on **Add**.
 14. Use the breadcrum to return to the environment screen and click on **App to app Messaging Service** under **Member Services**.
 15. Copy the externally managed destination URI into [./lib/externally-managed-cert-cert.pem](./lib/externally-managed-cert-cert.pem) as follows:
 
-![External destination](./resources/readme_3.png)
+![External destination](./resources/readme_4.png)
 
 # Snippets
 
